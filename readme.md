@@ -3,7 +3,7 @@
 <table>
     <thead>
         <tr>
-            <th>№</th>
+            <th>№ п/п</th>
             <th>Исправление</th>
             <th>Проект</th>
             <th>Принцип</th>
@@ -93,21 +93,21 @@ MALL-->		<section class="form-small">
 
 - *mobile.css* - нет ошибок (No errors or warnings to show.)
 
-## Доработка верстки по БЭМ
+## Верстка по БЭМ
 
-Доработка производилась на сайте Repair_design_project.
+Верстка по БЭМ производилась на сайте Repair_design_project.
 
-Коммиты:
+https://github.com/git-morozova/Repair_design_project
 
-- <a href="https://github.com/git-morozova/Repair_design_project/commit/3d27998500db776137fa962f53d71ee3dbdeae69">bem 1</a>
-
-- <a href="https://github.com/git-morozova/Repair_design_project/commit/3d27998500db776137fa962f53d71ee3dbdeae69">bem 1</a>
+https://git-morozova.github.io/Repair_design_project/
 
 
 ## Линтеры
 
-- Для HTML использовался линтер **HTMLHint**. Ошибок нет.
+- Для HTML использовался линтер **HTMLHint**. Ошибок/предупреждений нет.
 
-- Для проверки CSS использовался линтер **stylelint-plus**. Ошибок нет.
+- Для проверки CSS использовался линтер **stylelint-plus**. Ошибок/предупреждений нет.
 
 - Для форматирования HTML и CSS использовался **Prettier**.
+
+Коммит - здесь: <a href="https://github.com/git-morozova/Repair_design_project/commit/306ae2a6e6ca0eb85338c5ef5850b0ac1d7d5997">format code</a>

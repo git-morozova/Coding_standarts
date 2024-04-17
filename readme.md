@@ -3,7 +3,7 @@
 <table>
     <thead>
         <tr>
-            <th>№ п/п</th>
+            <th>№</th>
             <th>Исправление</th>
             <th>Проект</th>
             <th>Принцип</th>
@@ -70,6 +70,8 @@
     </tbody>
 </table>
 
+
+
 ## Проверка семантики и валидности верстки сайта
 
 Проверен сайт Repair_design_project:
@@ -93,6 +95,8 @@ MALL-->		<section class="form-small">
 
 - *mobile.css* - нет ошибок (No errors or warnings to show.)
 
+
+
 ## Верстка по БЭМ
 
 Верстка по БЭМ производилась на сайте Repair_design_project.
@@ -100,6 +104,7 @@ MALL-->		<section class="form-small">
 https://github.com/git-morozova/Repair_design_project
 
 https://git-morozova.github.io/Repair_design_project/
+
 
 
 ## Линтеры

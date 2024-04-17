@@ -73,17 +73,18 @@
 ## Проверка семантики и валидности верстки сайта
 
 Проверен сайт Repair_design_project:
+
 https://github.com/git-morozova/Repair_design_project
 https://git-morozova.github.io/Repair_design_project/
 
-*Семантика* - ОК.
+**Семантика** - ОК.
 
-Проверка *валидации* произведена на сайте W3C. Результат:
+Проверка **валидации** произведена на сайте W3C. Результат:
 
 - *index.html* - одно предупреждение 
 Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
 From line 135, column 3; to line 135, column 30
-MALL-->↩		<section class="form-small">↩	
+MALL-->		<section class="form-small">
 
 - *desktop.css* - нет ошибок (No errors or warnings to show.)
 
@@ -93,4 +94,12 @@ MALL-->↩		<section class="form-small">↩
 
 ## Доработка верстки по БЭМ
 
+
+
 ## Линтеры
+
+- Для HTML использовался линтер HTMLHint. Ошибок нет.
+
+- Для проверки CSS использовался линтер stylelint-plus. Ошибок нет.
+
+- Для форматирования HTML и CSS использовался Prettier.

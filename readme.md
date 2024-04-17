@@ -46,6 +46,27 @@
             <td>YAGNI</td>
             <td><a href="https://github.com/git-morozova/Repair_design_project/commit/cd01ff04f06c1ce696a5a8191ec282cd80c961ac">commit 5</a></td>
         </tr>
+        <tr>
+            <td>6</td>
+            <td>Частично повторяющийся код (DRY) на вывод ошибок заполнения форм регистрации и аутентификации убран со страниц регистрации и входа на сайт. Сделана отдельная функция для проверки ошибок showError(), в которой объединены коды ошибок, и эта функция записана в файл functions.php к остальным функциям (KISS). На страницах login.php и reg.php теперь просто происходит вызов функции <?php showError() ?></td>
+            <td>SPA_Site_with_auth</td>
+            <td>KISS + DRY</td>
+            <td><a href="https://github.com/git-morozova/SPA_Site_with_auth/commit/f4417ba127c8d7a6ed589bec5c99e9b2849cc39f">commit 6</a></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Убрана вводящая в заблуждение строка session_start() из файла logout.php. При разлогине пользователь уже имеет сессию.</td>
+            <td>SPA_Site_with_auth</td>
+            <td>KISS</td>
+            <td><a href="https://github.com/git-morozova/SPA_Site_with_auth/commit/4da1330e42538ac275c3dd2a1677644c6349c507">commit 7</a></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Убрана со страниц login.php, reg.php и lk.php кнопка "Главная", которая дублирует функционал перехода на главную по ссылке с логотипа.</td>
+            <td>SPA_Site_with_auth</td>
+            <td>YAGNI</td>
+            <td><a href="https://github.com/git-morozova/SPA_Site_with_auth/commit/c3436b2a9e261febb0ee0bc4b9b29234080cefd5">commit 8</a></td>
+        </tr>
     </tbody>
 </table>
 

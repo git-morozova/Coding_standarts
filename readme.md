@@ -55,15 +55,13 @@
         </tr>
         <tr>
             <td>7</td>
-            <td>Убрана вводящая в заблуждение строка session_start() из файла logout.php. При разлогине пользователь уже имеет сессию.</td>
-            <td>SPA_Site_with_auth</td>
-            <td>KISS</td>
-            <td><a href="https://github.com/git-morozova/SPA_Site_with_auth/commit/4da1330e42538ac275c3dd2a1677644c6349c507">commit 7</a></td>
+            <td>Убраны функции, которые используются только для расчета скидки - getBirthDay() и getSale(). Раньше скидки за день рождения и за первое посещение сайта были в разных функциях, теперь за этот функционал отвечает единая функция getPrice() (SOLID). Больше не нужно смотреть в разные места, чтобы понять, как считается скидка (KISS).</td>
+            <td>KISS+SOLID</td>
+            <td><a href="https://github.com/git-morozova/SPA_Site_with_auth/commit/627f27b9da786783afbbec9c6c27a0045a9766c3">commit 7</a></td>
         </tr>
         <tr>
             <td>8</td>
             <td>Убрана со страниц login.php, reg.php и lk.php кнопка "Главная", которая дублирует функционал перехода на главную по ссылке с логотипа.</td>
-            <td>SPA_Site_with_auth</td>
             <td>YAGNI</td>
             <td><a href="https://github.com/git-morozova/SPA_Site_with_auth/commit/c3436b2a9e261febb0ee0bc4b9b29234080cefd5">commit 8</a></td>
         </tr>

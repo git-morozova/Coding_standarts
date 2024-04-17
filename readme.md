@@ -55,14 +55,14 @@
         </tr>
         <tr>
             <td>7</td>
-            <td>Убраны функции, которые используются только для расчета скидки - getBirthDay() и getSale(). Раньше скидки за день рождения и за первое посещение сайта были в разных функциях, теперь за этот функционал отвечает единая функция getPrice() (SOLID). Больше не нужно смотреть в разные места, чтобы понять, как считается скидка (KISS).</td>
+            <td>Убраны функции, которые используются только для расчета скидки - getBirthDay() и getSale(). Раньше скидки за день рождения и за первое посещение сайта были в разных функциях, теперь за этот функционал отвечает единая функция getPrice().</td>
             <td>SPA_Site_with_auth</td>
-            <td>KISS+SOLID</td>
+            <td>SOLID</td>
             <td><a href="https://github.com/git-morozova/SPA_Site_with_auth/commit/627f27b9da786783afbbec9c6c27a0045a9766c3">commit 7</a></td>
         </tr>
         <tr>
             <td>8</td>
-            <td>Убрана со страниц login.php, reg.php и lk.php кнопка "Главная", которая дублирует функционал перехода на главную по ссылке с логотипа.</td>
+            <td>Убрана со страниц login.php, reg.php и lk.php кнопка "Главная", которая дублирует функционал перехода на главную по ссылке с логотипа. В ТЗ не было ни того, ни другого, но правило хорошего тона - сделать ссылку с лого на главную.</td>
             <td>SPA_Site_with_auth</td>
             <td>YAGNI</td>
             <td><a href="https://github.com/git-morozova/SPA_Site_with_auth/commit/c3436b2a9e261febb0ee0bc4b9b29234080cefd5">commit 8</a></td>
@@ -71,6 +71,25 @@
 </table>
 
 ## Проверка семантики и валидности верстки сайта
+
+Проверен сайт Repair_design_project:
+https://github.com/git-morozova/Repair_design_project
+https://git-morozova.github.io/Repair_design_project/
+
+*Семантика* - ОК.
+
+Проверка *валидации* произведена на сайте W3C. Результат:
+
+- *index.html* - одно предупреждение 
+Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+From line 135, column 3; to line 135, column 30
+MALL-->↩		<section class="form-small">↩	
+
+- *desktop.css* - нет ошибок (No errors or warnings to show.)
+
+- *tablet.css* - нет ошибок (No errors or warnings to show.)
+
+- *mobile.css* - нет ошибок (No errors or warnings to show.)
 
 ## Доработка верстки по БЭМ
 

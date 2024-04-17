@@ -3,7 +3,7 @@
 <table>
     <thead>
         <tr>
-            <th>№ п/п</th>
+            <th>№</th>
             <th>Исправление</th>
             <th>Проект</th>
             <th>Принцип</th>
@@ -75,6 +75,7 @@
 Проверен сайт Repair_design_project:
 
 https://github.com/git-morozova/Repair_design_project
+
 https://git-morozova.github.io/Repair_design_project/
 
 **Семантика** - ОК.
@@ -94,12 +95,19 @@ MALL-->		<section class="form-small">
 
 ## Доработка верстки по БЭМ
 
+Доработка производилась на сайте Repair_design_project.
+
+Коммиты:
+
+- <a href="https://github.com/git-morozova/Repair_design_project/commit/3d27998500db776137fa962f53d71ee3dbdeae69">bem 1</a>
+
+- <a href="https://github.com/git-morozova/Repair_design_project/commit/3d27998500db776137fa962f53d71ee3dbdeae69">bem 1</a>
 
 
 ## Линтеры
 
-- Для HTML использовался линтер HTMLHint. Ошибок нет.
+- Для HTML использовался линтер **HTMLHint**. Ошибок нет.
 
-- Для проверки CSS использовался линтер stylelint-plus. Ошибок нет.
+- Для проверки CSS использовался линтер **stylelint-plus**. Ошибок нет.
 
-- Для форматирования HTML и CSS использовался Prettier.
+- Для форматирования HTML и CSS использовался **Prettier**.
